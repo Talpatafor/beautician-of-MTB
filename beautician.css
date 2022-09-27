@@ -111,7 +111,7 @@ body{
 }
 
 #video{
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 #container .grid{
@@ -125,8 +125,8 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: rgb(243, 7, 7);
-        text-shadow: 0 0 5px rgb(219, 19, 5), 0 0 10px rgb(221, 26, 26), 0 0 15px rgb(230, 25, 25);
+        color: white;
+        text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
     }
     10%,90%{
         color: rgb(20, 16, 17);
@@ -174,7 +174,11 @@ button a{
     color: green;
 }
 
-@media (min-width: 720px){
+@media (max-width: 720px){
+#container{ display: block;}
+}
+
+@media (min-width: 721px) and (max-width: 1140px){
     #container{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
