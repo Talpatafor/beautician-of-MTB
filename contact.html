@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>contact</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+    background-color: white;
+}
+#text-animation{
+    text-align: center;
+}
+#text-animation span{
+    font-size: x-large;
+}
+#text-animation > span{
+    animation: anime 4s ease-in-out infinite;
+}
+@keyframes anime{
+    0%, 100%{
+        color: red;
+        text-shadow: 0 0 12px yellow, 0 0 50px yellow, 0 0 100px yellow;
+    }
+    10%, 90%{
+        color: green;
+        text-shadow: none;
+    }
+}
+#text-animation > span:nth-child(2){
+    animation-delay: 0.25s;
+}
+#text-animation > span:nth-child(3){
+    animation-delay: 0.50s;
+}
+#text-animation > span:nth-child(4){
+    animation-delay: 0.75s;
+}
+#text-animation > span:nth-child(5){
+    animation-delay: 1s;
+}
+#text-animation > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+#text-animation > span:nth-child(7){
+    animation-delay: 1.50s;
+}
+#text-animation > span:nth-child(8){
+    animation-delay: 1.75s;
+}
+#text-animation > span:nth-child(9){
+    animation-delay: 2s;
+}
+#text-animation > span:nth-child(10){
+    animation-delay: 2.25s;
+}
+#text-animation > span:nth-child(11){
+    animation-delay: 2.50s;
+}
+#text-animation > span:nth-child(12){
+    animation-delay: 2.75s;
+}
+#text-animation > span:nth-child(13){
+    animation-delay: 3s;
+}
+#text-animation > span:nth-child(14){
+    animation-delay: 3.25s;
+}
+#text-animation > span:nth-child(15){
+    animation-delay: 3.50s;
+}
+#nav{
+    background-color: rgba(16, 238, 134, 0.829);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+    margin: auto;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(38, 17, 224);
+    padding: 10px 20px;
+    
+}
+#nav ul li:hover{
+    background-color: rgb(218, 248, 45);
+}
+
+#contact{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 7px 7px gray;
+}
+#contact h4{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    /*margin: 20px 100px;*/
+}
+#contact p{
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+#btn{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+button{
+    padding: 6px 15px;
+    background-color: rgb(73, 197, 139);
+    box-shadow: 0 7px 7px black;
+    border-radius: 10px;
+    border: none;    
+}
+button a{
+    color: aliceblue;
+}
+
+#footer{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+#footer p{
+    color: white;
+}
+#footer p a{
+    color: green;
+}
+
+</style>
+</head>
+<body>
+    <div id="text-animation">
+        <span>M</span>
+        <span>a</span>
+        <span>k</span>
+        <span>e</span>
+        <span>u</span>
+        <span>p</span>
+        <span>A</span>
+        <span>r</span>
+        <span>t</span>
+        <span>i</span>
+        <span>s</span>
+        <span>t</span>
+        <span>M</span>
+        <span>T</span>
+        <span>B</span>
+    </div>
+    <div id="top"> 
+        <img src="DSC_4313.jpg" width="100%" height="450px">
+    </div>
+    <div id="nav">
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="about.html">ABOUT ME</a></li>
+            <!--<li> <a href="gallery.html">GALLERY</a></li>-->
+            <li> <a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <div id="contact">
+        <h4>CONTACT</h4>
+        <p>
+           যদি আপনি আমাদের পরিষেবা নিতে ইচ্ছুক হন তাহলে এই ইমেল এ আমাদের মেসেজ করুন।  <a href="mailto:sample@gmail.com">sample@gmail.com</a>
+        </p>
+    </div>
+
+    <div id="btn">
+
+        <button> <a href="gallery.html"> Photo Gallery</a></button>
+        </div>
+
+    <div id="footer">
+        <p>
+            Mathabhanga<br>
+            Cooch Behar<br>
+            West Bengal<br>
+            INDIA<br>
+            <a href="mailto:sample@gmail.com">sample@gmail.com</a><br> <br>
+        </p>
+    </div>
+
+</body>
+</html>

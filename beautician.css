@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+#text-animation{
+    text-align: center;
+}
+#text-animation span{
+    font-size: x-large;
+}
+#text-animation > span{
+    animation: anime 4s ease-in-out infinite;
+}
+@keyframes anime{
+    0%, 100%{
+        color: red;
+        text-shadow: 0 0 12px yellow, 0 0 50px yellow, 0 0 100px yellow;
+    }
+    10%, 90%{
+        color: green;
+        text-shadow: none;
+    }
+}
+#text-animation > span:nth-child(2){
+    animation-delay: 0.25s;
+}
+#text-animation > span:nth-child(3){
+    animation-delay: 0.50s;
+}
+#text-animation > span:nth-child(4){
+    animation-delay: 0.75s;
+}
+#text-animation > span:nth-child(5){
+    animation-delay: 1s;
+}
+#text-animation > span:nth-child(6){
+    animation-delay: 1.25s;
+}
+#text-animation > span:nth-child(7){
+    animation-delay: 1.50s;
+}
+#text-animation > span:nth-child(8){
+    animation-delay: 1.75s;
+}
+#text-animation > span:nth-child(9){
+    animation-delay: 2s;
+}
+#text-animation > span:nth-child(10){
+    animation-delay: 2.25s;
+}
+#text-animation > span:nth-child(11){
+    animation-delay: 2.50s;
+}
+#text-animation > span:nth-child(12){
+    animation-delay: 2.75s;
+}
+#text-animation > span:nth-child(13){
+    animation-delay: 3s;
+}
+#text-animation > span:nth-child(14){
+    animation-delay: 3.25s;
+}
+#text-animation > span:nth-child(15){
+    animation-delay: 3.50s;
+}
+
+
+
+#nav{
+    background-color: rgba(16, 238, 134, 0.829);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+#nav ul{
+    display: flex;
+    
+}
+#nav ul li{
+    list-style: none;
+    margin: auto;
+    
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(38, 17, 224);
+    padding: 10px 20px;
+    
+}
+#nav ul li:hover{
+    background-color: rgb(218, 248, 45);
+}
+
+#introduction{
+    width: 93%;
+    margin: auto;
+    box-shadow: 0 7px 7px gray;
+    border-radius: 15px;
+   
+}
+#introduction p{
+    padding: 10px 10px;
+    color: black;
+}
+
+#video{
+    margin: 15px 0;
+}
+
+#container .grid{
+    margin: 20px 0;
+}
+#container .grid h3{
+    text-align: center;
+}
+#container .grid h3 > span{
+    animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: rgb(243, 7, 7);
+        text-shadow: 0 0 5px rgb(219, 19, 5), 0 0 10px rgb(221, 26, 26), 0 0 15px rgb(230, 25, 25);
+    }
+    10%,90%{
+        color: rgb(20, 16, 17);
+        text-shadow: none;
+    }
+}
+#container .grid p{
+    width: 93%;
+    margin: auto;
+    box-shadow: 0 7px 7px gray;
+    border-radius: 15px;
+    padding: 10px 10px;
+    color: black;
+}
+#ami{
+    margin: 50px 0px;
+}
+
+#btn{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+button{
+    padding: 6px 15px;
+    background-color: rgb(73, 197, 139);
+    box-shadow: 0 7px 7px black;
+    border-radius: 10px;
+    border: none;    
+}
+button a{
+    color: aliceblue;
+}
+
+#footer{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px 0px;
+}
+#footer p{
+    color: white;
+}
+#footer p a{
+    color: green;
+}
+
+@media (min-width: 720px){
+    #container{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
